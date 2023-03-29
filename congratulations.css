@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow-y: hidden;
+  background-image: linear-gradient(
+    to right top,
+    #71a6f5,
+    #3ec0ed,
+    #69d1d3,
+    #a6dcbf,
+    #d9e3c1
+  );
+  background-size: 100%;
+}
+.content {
+  font-size: 20px;
+  text-align: center;
+}
+.text {
+  margin-top: -30px;
+  font-family: "Alkatra", cursive;
+  color: white;
+}
+.congratulations-img {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 100%;
+  animation-name: top-img;
+  animation-duration: 4s;
+}
+.gratz-img {
+  max-width: 100%;
+}
+.balloons {
+  display: flex;
+  width: 50%;
+  margin-top: 280px;
+  animation-name: left-balloons;
+  animation-duration: 4s;
+}
+.balloons-2 {
+  width: 50%;
+  margin-top: 280px;
+  animation-name: right-balloons;
+  animation-duration: 4s;
+}
+.right-balloons {
+  max-width: 100%;
+}
+.left-balloons {
+  max-width: 100%;
+}
+.all {
+  display: flex;
+  margin-top: -250px;
+  margin-bottom: 200px;
+}
+@keyframes top-img {
+  from {
+    margin-top: -240px;
+  }
+  to {
+    margin-top: 10px;
+  }
+}
+@keyframes left-balloons {
+  from {
+    margin-top: 770px;
+  }
+  to {
+    margin-top: 280px;
+  }
+}
+@keyframes right-balloons {
+  from {
+    margin-top: 770px;
+  }
+  to {
+    margin-top: 280px;
+  }
+}
